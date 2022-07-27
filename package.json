@@ -1,7 +1,7 @@
 {
   "name": "tailwind",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,10 +11,13 @@
     "lint:fix": "eslint --fix --ext .js,.jsx,.tsx"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.0.10",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.33.1"
   },
   "devDependencies": {
+    "@types/node": "^18.6.1",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.30.7",
